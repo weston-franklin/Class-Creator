@@ -11,5 +11,6 @@ public class interactable {
         String className = sc.nextLine();
         classCreator newClass = new classCreator();
         newClass.createClass(className);
+        System.exit(0);
     }
 }
